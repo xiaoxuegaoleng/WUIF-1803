@@ -1,0 +1,283 @@
+header{
+    width: 100%;
+    height: 2.52rem;
+    background-image: url("../img/hong.png");
+    background-size: cover;
+}
+header .top{
+    width: 100%;
+    height: 0.9rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+header .geRen{
+    width: 3.04rem;
+    height: 0.48rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header .geRen span{
+    color:#fff;
+    font-size: 0.24rem;
+}
+header .geRen span:nth-child(2){
+    color:#cec7c7;
+    font-size: 0.18rem;
+}
+header .bottom{
+    width:100%;
+    height: 1.62rem;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header .bottom .pic{
+    width:1.26rem;
+    height: 1.26rem;
+    background-image: url("../img/wanglihon.png");
+    background-size: cover;
+}
+header .bottom .info{
+     width: 1.92rem;
+     height: 0.76rem;
+     display: flex;
+     flex-direction: column;
+     margin-left: 0.2rem;
+}
+header .bottom span{
+    width: 1.92rem;
+    height: 0.38rem;
+    color:#fff;
+    font-size: 0.26rem;
+    text-align: left;
+}
+header .bottom  i{
+    width: 1.92rem;
+    height: 0.38rem;
+    color:#fff;
+    font-size: 0.26rem;
+    text-align: left;
+}
+header .bottom  i:nth-child(3){
+    width: 0.2rem;
+    height: 0.2rem;
+    margin-left: 3.43rem;
+    color:#fff;
+    font-size: 0.26rem;
+    text-align: left;
+}
+.benif{
+    width:100%;
+    height: 1.43rem;
+    padding:0 0.24rem;
+    border-bottom: 0.05rem solid #b5b5b5;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.benif .box1{
+    width: 33.3333333%;
+    height: 0.85rem;
+    border-right: 0.02rem solid #b5b5b5;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benif .box1 .info{
+    width: 0.8rem;
+    height: 0.6rem;
+
+}
+.benif .box1 .info .price{
+    width: 0.8rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    color:#f6ca9a;
+    font-size: 0.26rem;
+    text-align: center;
+}
+.benif .box1 .info .qianBao{
+    width: 0.8rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    color: #000000;
+    font-size: 0.26rem;
+    text-align: center;
+}
+.benif .box1:nth-child(2) .info .price{
+    color: #fa6464;
+}
+
+.benif .box1:nth-child(3) .info .price{
+    color: gold;
+}
+.benif .box1:nth-child(3){
+    border-right: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+section .listBoxs{
+    width: 100%;
+    height: auto;
+}
+section .listBoxs .list{
+    width: 100%;
+    height:1rem;
+    border-bottom: 0.01rem solid #959595;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+section .listBoxs .list:nth-child(9){
+    margin-bottom: 1rem;
+}
+
+section .listBoxs .list .iconfont{
+    color:#1296db;
+    font-size: 0.3rem;
+}
+section .listBoxs .list .hot{
+    color:#b2acac;
+    margin-left: 5.05rem;
+}
+section .listBoxs .list .name{
+    width: 1.2rem;
+    height: 0.5rem;
+    margin-left: 0.2rem;
+}
+section .listBoxs .list .name .top{
+    width: 100%;
+    height: 0.26rem;
+    line-height: 0.26rem;
+    color: #000000;;
+    font-size: 0.26rem;
+    text-align: left;
+}
+section .listBoxs .list .name .bottom{
+    width: 100%;
+    height: 0.24rem;
+    line-height: 0.24rem;
+    color: #d9d3d3;
+    font-size: 0.18rem;
+    text-align: center;
+
+}
+footer{
+    width:100%;
+    height: 0.98rem;
+    padding:0 0.7rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-sizing: border-box;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    background-color: #ffffff;
+}
+footer .waiMai{
+    width:0.51rem;
+    height: 0.73rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .waiMai i{
+    width: 0.46rem;
+    height: 0.46rem;
+    text-align: center;
+    line-height: 0.46rem;
+    font-size: 0.46rem;
+    color: #070707;
+}
+footer .waiMai span{
+    width: 0.46rem;
+    height: 0.27rem;
+    text-align: center;
+    line-height: 0.27rem;
+    font-size: 0.18rem;
+    color: #656060;
+}
+
+footer .faXian{
+    width:0.51rem;
+    height: 0.73rem;
+    display: flex;
+    flex-direction: column;
+}
+footer .faXian i{
+    width: 0.46rem;
+    height: 0.46rem;
+    text-align: center;
+    line-height: 0.46rem;
+    font-size: 0.46rem;
+    color: #070707;
+}
+footer .faXian span{
+    width: 0.46rem;
+    height: 0.27rem;
+    text-align: center;
+    line-height: 0.27rem;
+    font-size: 0.18rem;
+    color: #656060;
+}
+footer .dingDan{
+    width:0.51rem;
+    height: 0.73rem;
+    display: flex;
+    flex-direction: column;
+}
+footer .dingDan i{
+    width: 0.46rem;
+    height: 0.46rem;
+    text-align: center;
+    line-height: 0.46rem;
+    font-size: 0.46rem;
+    color: #070707;
+}
+footer .dingDan span{
+    width: 0.46rem;
+    height: 0.27rem;
+    text-align: center;
+    line-height: 0.27rem;
+    font-size: 0.18rem;
+    color: #656060;
+}
+footer .woDe{
+    width:0.51rem;
+    height: 0.73rem;
+    display: flex;
+    flex-direction: column;
+}
+footer .woDe i{
+    width: 0.46rem;
+    height: 0.46rem;
+    text-align: center;
+    line-height: 0.46rem;
+    font-size: 0.46rem;
+    color: #f13f5d;
+}
+footer .woDe span{
+    width: 0.46rem;
+    height: 0.27rem;
+    text-align: center;
+    line-height: 0.27rem;
+    font-size: 0.18rem;
+    color: #f13f5d;
+}

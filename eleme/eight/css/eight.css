@@ -1,0 +1,148 @@
+header{
+    width: 7.5rem;
+    height: 4.98rem;
+    background-image: url("../img/head.png");
+    background-size:cover;
+}
+section{
+    width:100%;
+    height: auto;
+}
+section .xian{
+    width: 100%;
+    height: 0.07rem;
+    background-color: #f7dbdc;
+    margin-top: 0.13rem;
+}
+section .title{
+    width: 6.45rem;
+    height: 1.23rem;
+    border-bottom: 0.01rem solid #d6d2d2;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .title .name{
+    width: 1.44rem;
+    height: 0.46rem;
+    color: #000000;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.46rem;
+    margin-left: 2.47rem;
+}
+section .title i{
+    width: 0.15rem;
+    height:0.15rem;
+    color: #000000;
+    font-size: 0.2rem;
+}
+section .boxs{
+    width: 100%;
+    height: auto;
+}
+[class^=list]{
+    width: 6.45rem;
+    height: 1.23rem;
+    border-bottom: 0.01rem solid #d6d2d2;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .list .active{
+    color:red;
+    font-size: 0.5rem;
+}
+section .list .active span{
+    color:#000000;
+    font-size: 0.3rem;
+}
+section .list .hot{
+    color:#48f854;
+    font-size: 0.3rem;
+}
+section .list1 .active{
+     color:#37aaec;
+     font-size: 0.5rem;
+ }
+section .list1 .active span{
+    color:#000000;
+    font-size: 0.3rem;
+}
+section .list1 .hot {
+    color: #b4b4b4;
+    font-size: 0.3rem;
+}
+section .list2 .active{
+    color:#2380b5;
+    font-size: 0.5rem;
+}
+section .list2 .active span{
+    color:#000000;
+    font-size: 0.3rem;
+}
+section .list2 .hot{
+    color:#b4b4b4;
+    font-size: 0.3rem;
+}
+section .list3 .active{
+    color:#e21f2d;
+    font-size: 0.5rem;
+}
+section .list3 .active span{
+    color:#000000;
+    font-size: 0.3rem;
+}
+section .list3 .hot{
+    color:#b4b4b4;
+    font-size: 0.3rem;
+}
+
+section .list4 .active{
+    color:#48f854;
+    font-size: 0.5rem;
+}
+section .list4 .active span{
+    color:#000000;
+    font-size: 0.3rem;
+}
+section .list4 .hot{
+    color:#b4b4b4;
+    font-size: 0.3rem;
+}
+section .list4{
+    margin-bottom:1.02rem;
+}
+footer{
+    width: 100%;
+    height: 0.98rem;
+    background-color: #4c4848;
+    position: fixed;
+    bottom:0;
+    left:0;
+    display: flex;
+    align-items: center;
+}
+footer .price{
+    width: 1.82rem;
+    height: 0.98rem;
+    color:#fff;
+    font-size: 0.3rem;
+    line-height: 0.98rem;
+    text-align: center;
+}
+footer .pay{
+    width: 2.22rem;
+    height: 0.98rem;
+    background-color: #58c646;
+    color:#fff;
+    font-size: 0.3rem;
+    line-height: 0.98rem;
+    text-align: center;
+    margin-left: 3.46rem;
+}
+

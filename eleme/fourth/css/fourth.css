@@ -1,0 +1,333 @@
+header{
+    width: 100%;
+    height: 4rem;
+    background-image: url("../img/page6top.png");
+    background-size: cover;
+}
+header .top{
+    width:100%;
+    height:0.88rem;
+    position: relative;
+}
+header .top i{
+    position: absolute;
+    left:0.24rem;
+    top:0.36rem;
+}
+header .bottom{
+    width: 100%;
+    height: 3.12rem;
+}
+header .bottom .feature{
+    width: 1.75rem;
+    height:0.45rem;
+    display: flex;
+    padding-left: 0.24rem;
+    padding-top: 0;
+}
+header .bottom .feature span{
+    width: 1.09rem;
+    height:0.45rem;
+    font-size: 0.18rem;
+    color:#fff;
+    line-height: 0.45rem;
+    box-sizing: border-box;
+
+}
+header .bottom .feature .gongsi{
+    width: 0.66rem;
+    height:0.36rem;
+    font-size: 0.18rem;
+    border: 0.01rem solid #fff;
+    box-sizing: border-box;
+    text-align:center;
+    line-height: 0.36rem;
+}
+header .bottom .location{
+    width: 100%;
+    height:0.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+}
+header .bottom .location .dizhi{
+    width:6rem;
+    height:0.5rem;
+    text-align: left;
+    line-height: 0.5rem;
+    font-size: 0.24rem;
+}
+header .bottom .location i{
+    width: 0.5rem;
+    height:0.5rem;
+    line-height: 0.5rem;
+    text-align: right;
+    margin-left: 0.35rem;
+}
+header .bottom .Name{
+    width: 3.04rem;
+    height: 0.47rem;
+    display: flex;
+    justify-content: space-between;
+    color:#fff;
+    line-height:0.47rem;
+    font-size: 0.18rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+}
+header .bottom .juxing{
+    width: 7.02rem;
+    height: 2.46rem;
+    background-color: #ffffff;
+    margin: 0.3rem 0.24rem;
+    border:0.01rem solid #f3cacb;
+    box-sizing: border-box;
+    border-radius: 0.23rem;
+    box-shadow: 0 0.01rem 0.11rem rgba(255,0,0,0.3);
+}
+header .bottom .juxing .top{
+    width:6.62rem;
+    height: 50%;
+    border-bottom: 0.01rem solid #cccccc;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+header .bottom .juxing .top span{
+    width: 1.06rem;
+    height: 0.5rem;
+    color: #000000;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+}
+header .bottom .juxing .top i{
+    width: 2rem;
+    height: 0.5rem;
+    color: #d54e53;
+    font-size: 0.18rem;
+    line-height: 0.5rem;
+    margin-left: 4.4rem;
+}
+header .bottom .juxing .bottom{
+    width:6.62rem;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+header .bottom .juxing .bottom span{
+    width: 2rem;
+    height: 0.5rem;
+    color: #000000;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+}
+header .bottom .juxing .bottom i{
+    width: 1.75rem;
+    height: 0.5rem;
+    color: #d54e53;
+    font-size: 0.18rem;
+    line-height: 0.5rem;
+    margin-left: 4.68rem;
+}
+.bigBoxs{
+    width:7.02rem;
+    height:6.15rem;
+    background-color: #fff;
+    margin: 0 0.24rem;
+    margin-top: 1.3rem;
+    border:0.01rem solid #f3cacb;
+    box-sizing: border-box;
+    border-radius: 0.23rem;
+    box-shadow: 0 0.01rem 0.11rem rgba(255,0,0,0.3);
+}
+.bigBoxs .top{
+     width:6.62rem;
+     height: 20%;
+     border-bottom: 0.01rem solid #cccccc;
+     margin: 0 auto;
+     box-sizing: border-box;
+     display: flex;
+     align-items: center;
+ }
+.bigBoxs .top span{
+    width: 1.06rem;
+    height: 0.5rem;
+    color: #000000;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+}
+.bigBoxs .pic{
+    width:6.62rem;
+    height: 40%;
+    border-bottom: 0.01rem solid #cccccc;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.bigBoxs .pic .tu{
+    width: 1.06rem;
+    height: 1.08rem;
+    background-image: url("../img/color.png");
+    background-size: cover;
+    background-position: center;
+}
+.bigBoxs .pic .name{
+    width: 1.88rem;
+    height: 1.08rem;
+    line-height: 1.08rem;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #000000;
+}
+.bigBoxs .pic .num{
+    width: 0.9rem;
+    height: 1.08rem;
+    line-height: 1.08rem;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #605d5d;
+    margin-left: 1.77rem;
+}
+.bigBoxs .pic .price{
+    width: 0.83rem;
+    height: 1.08rem;
+    line-height: 1.08rem;
+    text-align: right;
+    font-size: 0.24rem;
+    color: #000000;
+    margin-left: 0.13rem;
+}
+.bigBoxs .hongBao{
+    width:6.62rem;
+    height: 20%;
+    border-bottom: 0.01rem solid #cccccc;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.bigBoxs .hongBao span{
+    width: 1.56rem;
+    height: 0.5rem;
+    color: #000000;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+}
+.bigBoxs .hongBao i{
+    width: 2rem;
+    height: 0.5rem;
+    color: #000;
+    font-size: 0.18rem;
+    line-height: 0.5rem;
+    margin-left: 4.65rem;
+}
+.bigBoxs .xiaoJi{
+    width:6.62rem;
+    height: 20%;
+    border-bottom: 0.01rem solid #cccccc;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.bigBoxs .xiaoJi span{
+    width: 1rem;
+    height: 0.5rem;
+    color: #000000;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+}
+.bigBoxs .xiaoJi span:nth-child(2){
+    margin-left: 5.15rem;
+}
+.smlBoxs{
+    width:7.02rem;
+    height:2.46rem;
+    background-color: #fff;
+    margin: 0.3rem 0.24rem;
+    margin-bottom: 1.3rem;
+    border:0.01rem solid #f3cacb;
+    box-sizing: border-box;
+    border-radius: 0.23rem;
+    box-shadow: 0 0.01rem 0.11rem rgba(255,0,0,0.3);
+}
+.smlBoxs .top{
+    width:6.62rem;
+    height: 50%;
+    border-bottom: 0.01rem solid #cccccc;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.smlBoxs .top span{
+    width: 1.56rem;
+    height: 0.5rem;
+    color: #000000;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+}
+.smlBoxs .top i{
+    width: 1.5rem;
+    height: 0.5rem;
+    color: #cbcaca;
+    font-size: 0.18rem;
+    line-height: 0.5rem;
+    margin-left: 4.4rem;
+}
+.smlBoxs .bottom{
+    width:6.62rem;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.smlBoxs .bottom span{
+    width: 2rem;
+    height: 0.5rem;
+    color: #000000;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+}
+.smlBoxs .bottom i{
+    width: 1rem;
+    height: 0.5rem;
+    color: #cbcaca;
+    font-size: 0.18rem;
+    line-height: 0.5rem;
+    margin-left: 4.4rem;
+}
+footer{
+    width: 100%;
+    height: 0.98rem;
+    background-color: #4c4848;
+    position: fixed;
+    bottom:0;
+    left:0;
+    display: flex;
+    align-items: center;
+}
+footer .price{
+    width: 1.82rem;
+    height: 0.98rem;
+    color:#fff;
+    font-size: 0.3rem;
+    line-height: 0.98rem;
+    text-align: center;
+}
+footer .pay{
+    width: 2.22rem;
+    height: 0.98rem;
+    background-color: #58c646;
+    color:#fff;
+    font-size: 0.3rem;
+    line-height: 0.98rem;
+    text-align: center;
+    margin-left: 3.46rem;
+}

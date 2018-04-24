@@ -1,0 +1,318 @@
+header{
+    width:100%;
+    height: 5.71rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header .pic{
+    width: 2.46rem;
+    height: 2.46rem;
+    background-image: url("../img/zhuce.png");
+    background-size: cover;
+}
+header .eng{
+    width:100% ;
+    height:0.48rem ;
+    color: #d1cccc;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.48rem;
+    margin-top: 0.6rem;
+}
+header .name{
+    width: 3.08rem;
+    height: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+header .name .dot {
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background-color: #e28185;
+}
+header .name .dot:nth-child(2),.dot:nth-child(5) {
+    background-color: #d64c52;
+}
+header .name .dot:nth-child(3),.dot:nth-child(4) {
+    background-color: #d23a41;
+}
+header .name .word{
+    width: 1.5rem;
+    height: 0.3rem;
+    color: #de7d81;
+    font-size: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+}
+section{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section .smlBox{
+    width: 4.4rem;
+    height: 3rem;
+    background-color:#f86161;
+    border-radius: 0.3rem;
+    margin-top: 0.3rem;
+}
+section .bigBox{
+    width: 6rem;
+    height: 5rem;
+    background-color:#f3f3f3;
+    margin-top: -2.5rem;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section .bigBox .dots{
+    width: 0.65rem;
+    height: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row;
+}
+section .bigBox .dots a{
+    width:0.14rem;
+    height: 0.14rem;
+}
+section .bigBox .dots .dot{
+    width:0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #f57b81;
+}
+section .bigBox .dots  a:nth-child(2) .dot{
+    background-color: #c2bcbc;
+}
+section .bigBox .phone{
+    width: 4.7rem;
+    height: 0.93rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row;
+}
+section .bigBox .phone .left{
+    width: 0.27rem;
+    height: 0.08rem;
+    background-color: #84ccc9;
+    border-radius: 0.04rem;
+}
+section .bigBox .phone .right{
+    height: 0.93rem;
+    flex-grow: 1;
+    border-bottom: 0.01rem solid #c2bcbc;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .bigBox .phone .right .wenZi{
+    width: 1.5rem;
+    height: 0.32rem;
+    /*color: #cfcbcb;*/
+    font-size: 0.24rem;
+    margin-left: 0.2rem;
+    text-align: left;
+    line-height: 0.32rem;
+    border-style: none;
+    background-color: #f3f3f3;
+}
+section .bigBox .phone .right .fuhao{
+    width: 0.40rem;
+    height: 0.42rem;
+    line-height: 0.42rem;
+    text-align: center;
+    margin-top: -0.45rem;
+}
+section .bigBox .phone .right .fuhao i{
+    width: 0.22rem;
+    height: 0.32rem;
+    color: #84ccc9;
+    font-size: 0.4rem;
+    line-height: 0.32rem;
+    text-align: center;
+}
+section .bigBox .yanZheng{
+    width: 4.7rem;
+    height: 0.93rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row;
+
+}
+section .bigBox .yanZheng .left{
+    width: 0.27rem;
+    height: 0.08rem;
+    background-color: #84ccc9;
+    border-radius: 0.04rem;
+}
+section .bigBox .yanZheng .right{
+    height: 0.93rem;
+    flex-grow: 1;
+    border-bottom: 0.01rem solid #c2bcbc;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .bigBox .yanZheng .right .wenZi{
+    width: 1.5rem;
+    height: 0.32rem;
+    font-size: 0.24rem;
+    margin-left: 0.2rem;
+    text-align: left;
+    line-height: 0.32rem;
+    border-style: none;
+    background-color: #f3f3f3;
+}
+section .bigBox .yanZheng .right .placeholder{
+    color: #c5c0c0;
+}
+section .bigBox .yanZheng .right a{
+    width: 1.4rem;
+    height: 0.38rem;
+}
+section .bigBox .yanZheng .right .kuang{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    background-color: #ec6941;
+    font-size: 0.18rem;
+    line-height: 0.38rem;
+    text-align: center;
+}
+section .bigBox .password{
+    width: 4.7rem;
+    height: 0.93rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row;
+}
+section .bigBox .password .left{
+    width: 0.27rem;
+    height: 0.08rem;
+    background-color: #84ccc9;
+    border-radius: 0.04rem;
+}
+section .bigBox .password .right{
+    height: 0.93rem;
+    flex-grow: 1;
+    border-bottom: 0.01rem solid #c2bcbc;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .bigBox .password .right .wenZi{
+    width: 1.5rem;
+    height: 0.32rem;
+    background-color: #f3f3f3;
+    color: #cfcbcb;
+    font-size: 0.24rem;
+    margin-left: 0.2rem;
+    text-align: left;
+    line-height: 0.32rem;
+    border-style: none;
+
+}
+section .bigBox .password .right .fuhao{
+    width: 0.40rem;
+    height: 0.42rem;
+    line-height: 0.42rem;
+    text-align: center;
+    margin-top: -0.45rem;
+}
+section .bigBox .password .right .fuhao i{
+    width: 0.22rem;
+    height: 0.32rem;
+    color: #d34047;
+    font-size: 0.4rem;
+    line-height: 0.32rem;
+    text-align: center;
+}
+section .bigBox a {
+    width: 1.86rem;
+    height: 0.5rem;
+}
+section .bigBox .btn{
+    width:1.86rem;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #e6e6e7;
+    margin-bottom: -0.5rem;
+    margin-top: 0.6rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+section .bigBox .btn i{
+    width:100%;
+    height:100%;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 100%;
+    font-size: 0.5rem;
+}
+footer{
+    width: 100%;
+    height: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+footer .xian{
+    width: 1.5rem;
+    height: 0.03rem;
+    background-color: #dedede;
+}
+footer .text{
+    width: 4.5rem;
+    height: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .text a{
+    width: 0.2rem;
+    height: 0.2rem;
+}
+
+footer .text .circle{
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color:#d7d0d1 ;
+    border-radius: 50%;
+    border: 0.04rem solid #edb0b3;
+    line-height: 0.2rem;
+    text-align: right;
+    margin-left: 0.2rem;
+}
+footer .text a:hover .circle{
+    background-color:#d23a41 ;
+}
+footer .text .word{
+    width: 4.1rem;
+    height: 0.4rem;
+    color: #dedede;
+    font-size: 0.2rem;
+    line-height: 0.4rem;
+    text-align: right;
+}
